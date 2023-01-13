@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Palatino;
+    src: url(fonts/Palatino\ Linotype.ttf);
+}
+
+@font-face {
+    font-family: Seguisb;
+    src: url(fonts/seguisb.ttf);
+}
+body {
+    font-family: 'Seguisb', 'Times New Roman', Times, serif;
+    background-color: #032545;
+    height: auto;
+    width: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.circle2 {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 100px;
+    left: 100px;
+}
+
+.circle3 {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 350px;
+    left: 10px;
+}
+
+.circle4 {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 425px;
+    left: 1100px;
+}
+
+.circle5 {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 200px;
+    left: 1780px;
+}
+
+.circle6 {
+    position: absolute;
+    height: 120px;
+    width: 180px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 445px;
+    left: 200px;
+}
+
+.circle7 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 740px;
+    left: 425px;
+}
+
+.circle8 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    top: 850px;
+    left: 600px;
+}
+
+.titleBox {
+    width: 1700px;
+    height: 375px;
+    background-color: #EFEFEF;
+    padding: 10px 60px 10px 60px;
+    border: 10px solid #EFEFEF;
+    border-radius: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+.title {
+    margin-left: 30px;
+    font-size: 85px;
+}
+
+.define {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.btnAndCircle {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 1550px;
+    margin-left: 250px;
+    margin-right: auto;
+}
+
+.circle1 {
+    height: 140px;
+    width: 140px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+}
+
+.next {
+    font-family: 'Seguisb', 'Times New Roman', Times, serif;
+    background-color: #BF0603;
+    color: #EFEFEF;
+    height: fit-content;
+    width: fit-content;
+    font-size: 35px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+}
+
+.next:hover {
+    background-color: #870200;
+    cursor: pointer;
+}
+
